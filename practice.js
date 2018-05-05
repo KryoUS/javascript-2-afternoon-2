@@ -19,7 +19,7 @@ var arr = [10,20,30];
 
 function first(arr) {
   return arr[0];
-}
+};
 
 
 
@@ -36,7 +36,7 @@ var arr = [40,50,60];
 
 function last(arr) {
   return arr[2];
-}
+};
 
 
 
@@ -97,7 +97,7 @@ function evenFinder (nums) {
     }
   }
   return evenNums;
-}
+};
 
 
 
@@ -128,7 +128,7 @@ function divider (arr) {
   sortArray.push(evenArr);
   sortArray.push(oddArr);
   return sortArray;
-}
+};
 
 
 
@@ -157,7 +157,7 @@ function finder (arr) {
     }
   }
   return false;
-}
+};
 
 
 
@@ -216,7 +216,7 @@ function maker() {
     arr.push(i);
   }
   return arr;
-}
+};
 
 
 
@@ -240,7 +240,7 @@ function addTen(num) {
     newArr.push(newNum);
   }
   return newArr;
-}
+};
 
 
 
